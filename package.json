@@ -1,0 +1,23 @@
+{
+  "name": "ivswag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyomin0804/IVSwag_Web_Project.git"
+  },
+  "author": "hyomin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyomin0804/IVSwag_Web_Project/issues"
+  },
+  "homepage": "https://github.com/hyomin0804/IVSwag_Web_Project#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
