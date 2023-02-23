@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="kor">
-    <%- include('particle/head') %>
+<%- include('particle/head') %>
 
-<body>
-    <%- include('particle/navbar') %>
+    <body>
+        <nav id='first_nav'
+            class="navbar navbar-expand-lg justify-content-between bg-light fixed-top  border-bottom border-primary px-2 px-lg-5 ">
+            <img id='smallLogo' src="https://www.gachon.ac.kr/sites/kor/images/sub/slogan_2.png" alt="Logo">
+            <span class="text-center head kor">
+                <b>간호투약수행기록</b>
+            </span>
+            <div>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav eng">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/about" class="nav-link">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-</body>
+        <section class="col row-cols-1 row-cols-md-2 g-2">
+            <div class="col d-flex mb-4">
+                <div class="card col-lg-8 mx-5">
+                    <div class="card-header">Featured</div>
+                    <img src="/image/work_flow.png" class="bi-card-image" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Featured</div>
+                    <img src="/image/work_flow.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">Featured</div>
+                    <img src="/image/work_flow.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural
+                            lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </body>
 
 </html>
