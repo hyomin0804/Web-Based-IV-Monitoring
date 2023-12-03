@@ -1,4 +1,4 @@
-# IVSwag_Web_Project_ 창의혁신 DNA 산학협력 팀프로젝트
+# IVSwag_Web_Project
 : 웨어러블기반 인공지능을 적용한 수액 통합 관리 플랫폼
 
 ![image](https://github.com/hyomin0804/IVSwag_Web_Project/assets/87791247/f905b19f-85ec-471a-90dc-38cb32b9eed4)
